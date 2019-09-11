@@ -1,0 +1,48 @@
+@import '../../../styles/styles';
+
+.flow-item {
+  font-family: 'Lato';
+  padding-top: 30px;
+  width: 100%;
+
+  .flow-item-container {
+    margin: 0 auto;
+    width: 67.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-block {
+    width: 43%;
+
+    .title-block {
+      .title {
+        font-size: 30px;
+        font-weight: 600;
+        position: relative;
+        z-index: 1;
+      }
+
+      .title:after {
+        position: absolute;
+        content: '';
+        height: 15px;
+        width: 100%;
+        top: 24px;
+        left: 0px;
+        background-color: $main-color;
+        z-index: -1;
+        opacity: 0.9;
+      }
+    }
+
+    .description {
+      font-size: 20px;
+    }
+  }
+}
+
+.grey_bg {
+  background-color: $grey;
+}

@@ -11,12 +11,14 @@ import React from 'react';
 import Header from '../../components/Header';
 import Motivation from '../../components/Motivation';
 import Intro from '../../components/Intro';
+import Workflow from '../../components/Workflow';
 
 export default function HomePage() {
   return (
     <div>
       <Header />
       <Intro />
+      <Workflow />
       <Motivation />
     </div>
   );
