@@ -13,4 +13,9 @@ export default defineMessages({
     id: `${scope}.header`,
     defaultMessage: 'This is the Motivation component!',
   },
+
+  MotivationTitle: {
+    id: `${scope}.motivationTitle`,
+    defaultMessage: 'Are you ready to create something really cool?',
+  },
 });
