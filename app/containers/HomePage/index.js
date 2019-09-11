@@ -10,11 +10,13 @@ import React from 'react';
 // import messages from './messages';
 import Header from '../../components/Header';
 import Motivation from '../../components/Motivation';
+import Intro from '../../components/Intro';
 
 export default function HomePage() {
   return (
     <div>
       <Header />
+      <Intro />
       <Motivation />
     </div>
   );
