@@ -48,12 +48,15 @@ module.exports = options => ({
       {
         test: /\.svg$/,
         use: [
+          'babel-loader',
           {
-            loader: 'svg-url-loader',
+            loader: 'react-svg-loader',
             options: {
-              // Inline files smaller than 10 kB
-              limit: 10 * 1024,
-              noquotes: true,
+              svgo: {
+                plugins: [{ removeTitle: false }],
+                floatPrecision: 2,
+              },
+              jsx: true,
             },
           },
         ],
