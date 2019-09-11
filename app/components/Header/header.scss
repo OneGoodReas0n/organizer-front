@@ -1,0 +1,75 @@
+@import '../../styles/styles';
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  height: $header-height-vh;
+  min-height: $header-height-min;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.35);
+  &.events {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba($color: #fff, $alpha: 0.6);
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+  .header-container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+
+    .brand {
+      font-family: 'Montserrat';
+      font-weight: 800;
+      font-size: 24px;
+      .brand_text {
+        color: $text-color;
+        &.events {
+          color: $events-text-color;
+        }
+      }
+    }
+    .menu {
+      ul {
+        margin: 0;
+      }
+      ul li {
+        display: inline;
+        margin-right: 40px;
+        letter-spacing: 3px;
+        line-height: 40px;
+      }
+
+      ul li.ru {
+        letter-spacing: 1px;
+      }
+
+      ul li a {
+        font-family: 'Myriad Pro';
+        font-weight: 400;
+        color: $text-color;
+        font-size: 16px;
+        &.events {
+          color: $events-text-color;
+        }
+      }
+
+      ul li:last-child {
+        margin-left: 100px;
+      }
+
+      ul li:last-child a {
+        font-weight: 700;
+        font-size: 16px;
+      }
+    }
+  }
+}

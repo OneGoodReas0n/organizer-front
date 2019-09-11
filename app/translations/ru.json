@@ -1,0 +1,11 @@
+{
+  "app.components.Header.about": "О нас",
+  "app.components.Header.createEvent": "Создать мероприятие",
+  "app.components.Header.events": "Ивенты",
+  "app.components.Header.header": "",
+  "app.components.Header.login": "Войти",
+  "app.components.Header.support": "Поддержка",
+  "app.components.Header.tickets": "Билеты",
+  "app.containers.HomePage.header": "Это Хоум контейнер",
+  "app.containers.NotFoundPage.header": ""
+}
