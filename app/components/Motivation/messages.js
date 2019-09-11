@@ -18,4 +18,9 @@ export default defineMessages({
     id: `${scope}.motivationTitle`,
     defaultMessage: 'Are you ready to create something really cool?',
   },
+
+  MotivationButtonText: {
+    id: `${scope}.motivationButtonText`,
+    defaultMessage: `Let's start!`,
+  },
 });
