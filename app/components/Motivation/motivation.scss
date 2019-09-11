@@ -1,5 +1,12 @@
 @import '../../styles/styles';
 
+a {
+  color: $text-color;
+  &:hover {
+    color: $text-color;
+  }
+}
+
 .motivation {
   margin-top: 30px;
   background-color: $grey;

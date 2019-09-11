@@ -7,10 +7,10 @@ import LeftDecoration from './assets/top.svg';
 import RightDecoration from './assets/bot.svg';
 import messages from './messages';
 import './motivation.scss';
+import Button from '../Button';
 // SVGs
 
 function Motivation() {
-  console.log(LeftDecoration);
   return (
     <div className="motivation">
       <LeftDecoration className="left_decor" />
@@ -19,14 +19,9 @@ function Motivation() {
           <FormattedMessage {...messages.MotivationTitle} />
         </span>
         <div className="d-flex justify-content-center">
-          {/* <Button
-            text={
-              <FormattedMessage
-                id="Home.Intro.button"
-                defaultMessage="Let's start"
-              />
-            }
-          /> */}
+          <Button
+            text={<FormattedMessage {...messages.MotivationButtonText} />}
+          />
         </div>
       </div>
       <RightDecoration className="right_decor" />
