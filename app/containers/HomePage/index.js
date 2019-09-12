@@ -12,6 +12,7 @@ import Header from '../../components/Header';
 import Motivation from '../../components/Motivation';
 import Intro from '../../components/Intro';
 import Workflow from '../../components/Workflow';
+import Services from '../../components/Services';
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Header />
       <Intro />
       <Workflow />
+      <Services />
       <Motivation />
     </div>
   );

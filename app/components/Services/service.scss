@@ -1,0 +1,16 @@
+.services {
+  margin: 0 auto;
+  margin-bottom: 150px;
+  width: 67.5%;
+  text-align: center;
+  font-family: 'Lato';
+
+  .services-title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .services-container {
+    width: 100%;
+    overflow: hidden;
+  }
+}
