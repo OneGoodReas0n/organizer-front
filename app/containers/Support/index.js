@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 // import reducer from './reducer';
 import SearchBlock from '../../components/SupportPage/SearchBlock/Loadable';
 import Header from '../../components/MainPage/Header/Loadable';
+import InfoBlock from '../../components/SupportPage/InfoBlock/Loadable';
 
 export function Support() {
   return (
@@ -14,6 +15,7 @@ export function Support() {
       </Helmet>
       <Header />
       <SearchBlock />
+      <InfoBlock />
     </div>
   );
 }
