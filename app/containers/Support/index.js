@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 // import reducer from './reducer';
@@ -18,8 +18,6 @@ export function Support() {
   );
 }
 
-Support.propTypes = {
-  dispatch: PropTypes.func.isRequired,
-};
+Support.propTypes = {};
 
 export default memo(Support);
