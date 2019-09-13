@@ -4,7 +4,7 @@ import React, { memo } from 'react';
 
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
-import InfoItem from './InfoItem/Loadable';
+import InfoItem from './InfoItem';
 import items from './data/items';
 import './info-block.scss';
 
@@ -16,7 +16,7 @@ function InfoBlock() {
           <FormattedMessage {...messages.title} />
           <div className="blocks-container">
             {items.map(e => (
-              <InfoItem id={e.id} title={e.title} />
+              <InfoItem key={e.id} id={e.id} title={e.title} />
             ))}
           </div>
         </h3>

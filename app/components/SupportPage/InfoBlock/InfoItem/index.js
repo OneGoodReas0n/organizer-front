@@ -15,7 +15,7 @@ function InfoItem({ title }) {
 }
 
 InfoItem.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.any.isRequired,
 };
 
 export default memo(InfoItem);

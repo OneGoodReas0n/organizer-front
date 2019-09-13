@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import SearchBlock from '../../components/SupportPage/SearchBlock/Loadable';
 import Header from '../../components/MainPage/Header/Loadable';
 import InfoBlock from '../../components/SupportPage/InfoBlock/Loadable';
+import ContactForm from '../../components/SupportPage/ContactForm/Loadable';
 
 export function Support() {
   return (
@@ -16,6 +17,7 @@ export function Support() {
       <Header />
       <SearchBlock />
       <InfoBlock />
+      <ContactForm />
     </div>
   );
 }
