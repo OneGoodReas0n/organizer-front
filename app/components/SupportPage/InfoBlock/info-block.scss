@@ -1,0 +1,13 @@
+@import '../../../styles/colors';
+
+.info-blocks {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 150px;
+  color: $text-color;
+
+  .blocks-container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+}
