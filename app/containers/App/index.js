@@ -1,12 +1,12 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import HomePage from 'containers/HomePage/Loadable';
+import HomePage from 'containers/Home/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
 import GlobalStyle from '../../global-styles';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import { AboutPage } from '../AboutPage';
+import AboutPage from '../About/Loadable';
 
 export default function App() {
   return (
