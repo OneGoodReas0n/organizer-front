@@ -15,6 +15,13 @@
   "app.components.Workflow.HaveFunText": "Have fun !",
   "app.components.Workflow.SetupEventTitle": "Setup event",
 
+  "app.components.ContactForm.emailPlaceholder": "Enter your email please",
+  "app.components.ContactForm.namePlaceholder": "Enter your name please",
+  "app.components.ContactForm.email": "Your email",
+  "app.components.ContactForm.name": "Your name",
+  "app.components.ContactForm.theme": "Theme",
+  "app.components.ContactForm.message": "Message",
+
   "app.containers.HomePage.header": "This is the HomePage container!",
   "app.containers.NotFoundPage.header": "This is the NotFoundPage container!",
 
