@@ -6,7 +6,17 @@
   "app.components.Header.login": "Login",
   "app.components.Header.support": "Support",
   "app.components.Header.tickets": "Tickets",
+
+  "app.components.Intro.introBigText": "A new approach in creating events",
+  "app.components.Intro.introContentText": "Host your best event in less than 15 mins",
+  "app.components.Intro.introButtonText": "Let's start",
+
+  "app.components.Workflow.IntroText": "Start event process",
+  "app.components.Workflow.HaveFunText": "Have fun !",
+  "app.components.Workflow.SetupEventTitle": "Setup event",
+
   "app.containers.HomePage.header": "This is the HomePage container!",
   "app.containers.NotFoundPage.header": "This is the NotFoundPage container!",
+
   "app.components.SearchBlock.formPlaceholder": "Start typing your question..."
 }
