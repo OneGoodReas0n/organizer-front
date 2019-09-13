@@ -1,10 +1,9 @@
 import React, { memo } from 'react';
 // import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import { FormattedMessage } from 'react-intl';
 // import reducer from './reducer';
-
-import messages from './messages';
+import SearchBlock from '../../components/SupportPage/SearchBlock/Loadable';
+import Header from '../../components/MainPage/Header/Loadable';
 
 export function Support() {
   return (
@@ -13,7 +12,8 @@ export function Support() {
         <title>Support</title>
         <meta name="description" content="Description of Support" />
       </Helmet>
-      <FormattedMessage {...messages.header} />
+      <Header />
+      <SearchBlock />
     </div>
   );
 }

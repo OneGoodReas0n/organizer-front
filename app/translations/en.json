@@ -7,5 +7,6 @@
   "app.components.Header.support": "Support",
   "app.components.Header.tickets": "Tickets",
   "app.containers.HomePage.header": "This is the HomePage container!",
-  "app.containers.NotFoundPage.header": "This is the NotFoundPage container!"
+  "app.containers.NotFoundPage.header": "This is the NotFoundPage container!",
+  "app.components.SearchBlock.formPlaceholder": "Start typing your question..."
 }

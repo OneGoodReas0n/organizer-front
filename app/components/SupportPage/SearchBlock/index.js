@@ -2,11 +2,12 @@ import React, { memo } from 'react';
 // import PropTypes from 'prop-types';
 // import styled from 'styled-components';
 
-import { FormattedMessage } from 'react-intl';
-import messages from './messages';
+import { FormattedMessage, injectIntl, intlShape } from 'react-intl';
+import messages, { scope } from './messages';
 import themes from './data/themes';
+import './search-block.scss';
 
-function SearchBlock() {
+function SearchBlock({ intl }) {
   const theme = e => (
     <span key={e.id}>
       {' '}
@@ -16,7 +17,6 @@ function SearchBlock() {
       {e.id === 3 ? '.' : ','}
     </span>
   );
-
   return (
     <div className="search-block">
       <div className="search-content">
@@ -28,9 +28,7 @@ function SearchBlock() {
             type="text"
             className="search-input"
             id="search-input"
-            placeholder={
-              <FormattedMessage {...messages.searchFormPlaceholder} />
-            }
+            placeholder={intl.formatMessage({ id: `${scope}.formPlaceholder` })}
           />
         </div>
         <div className="popular-themes">
@@ -44,6 +42,8 @@ function SearchBlock() {
   );
 }
 
-SearchBlock.propTypes = {};
+SearchBlock.propTypes = {
+  intl: intlShape.isRequired,
+};
 
-export default memo(SearchBlock);
+export default (memo, injectIntl)(SearchBlock);
