@@ -1,0 +1,81 @@
+.bottom {
+  font-family: 'Lato';
+  height: 60px;
+  .content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    .language_picker {
+      position: relative;
+      display: inline-block;
+      height: 40px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 10%;
+      &:hover {
+        overflow: visible;
+      }
+      &:hover > .picker-menu {
+        height: 81px;
+        background-color: #f7f7f7;
+      }
+      .picker-menu {
+        width: 100%;
+        padding: 0;
+        position: absolute;
+        top: -41px;
+        background-color: #fff;
+        border-radius: 5px;
+        li {
+          display: flex;
+          list-style-type: none;
+          line-height: 40px;
+          border-bottom: 1px solid #eee;
+          padding: 0px 20px;
+          align-items: center;
+        }
+        li:last-of-type {
+          border: none;
+        }
+        .lang_icon {
+          width: 24px;
+          height: 24px;
+          margin-right: 3px;
+        }
+        .select_icon {
+          width: 10px;
+          height: 10px;
+          margin-left: 3px;
+        }
+      }
+    }
+    .addInfo {
+      .item {
+        margin: 0;
+        width: fit-content;
+        margin-right: 50px;
+      }
+    }
+    .social {
+      .item_block {
+        float: left;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: #255f85;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+        .svg {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}

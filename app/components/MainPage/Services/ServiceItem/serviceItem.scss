@@ -1,0 +1,16 @@
+.item {
+  margin-top: 30px;
+  width: 33%;
+  float: left;
+  .icon-container {
+    .service-item-icon {
+      height: 100px;
+      width: 100px;
+      display: inline-block;
+    }
+  }
+  .text-container {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
