@@ -47,6 +47,7 @@ module.exports = options => ({
       },
       {
         test: /\.svg$/,
+        exclude: /node_modules/,
         use: [
           'babel-loader',
           {

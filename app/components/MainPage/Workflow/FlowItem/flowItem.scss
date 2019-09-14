@@ -11,34 +11,39 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
 
-  .text-block {
-    width: 43%;
-
-    .title-block {
-      .title {
-        font-size: 30px;
-        font-weight: 600;
-        position: relative;
-        z-index: 1;
-      }
-
-      .title:after {
-        position: absolute;
-        content: '';
-        height: 15px;
-        width: 100%;
-        top: 24px;
-        left: 0px;
-        background-color: $main-color;
-        z-index: -1;
-        opacity: 0.9;
-      }
+    .picture_place {
+      width: 460px;
+      height: 300px;
     }
 
-    .description {
-      font-size: 20px;
+    .text-block {
+      width: 43%;
+
+      .title-block {
+        .title {
+          font-size: 30px;
+          font-weight: 600;
+          position: relative;
+          z-index: 1;
+        }
+
+        .title:after {
+          position: absolute;
+          content: '';
+          height: 15px;
+          width: 100%;
+          top: 24px;
+          left: 0px;
+          background-color: $main-color;
+          z-index: -1;
+          opacity: 0.9;
+        }
+      }
+
+      .description {
+        font-size: 20px;
+      }
     }
   }
 }

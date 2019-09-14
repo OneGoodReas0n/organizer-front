@@ -48,7 +48,7 @@ export default defineMessages({
 
   ChooseServiceTitle: {
     id: `${scope}.chooseServiceTitle`,
-    defaultMessage: 'Setup event',
+    defaultMessage: 'Choose service',
   },
 
   ChooseServiceDesc: {
